@@ -5,7 +5,6 @@
 
 /**
  *main - determines whether a random number is positive or negative
- *@n: the random number
  *Return: positive if n is greater than 0, negative if n is less than 0
  */
 int main(void)

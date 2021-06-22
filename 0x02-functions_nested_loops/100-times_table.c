@@ -22,14 +22,18 @@ void print_times_table(int n)
 			_putchar(' ');
 
 			c = a * b;
-			if (c <= 9)
+			if (c <= 100)
+			{
 				_putchar(' ');
+				_putchar(' ');
+			}
 			else
+			{
 				_putchar((c / 10) + '0');
+			}
 			_putchar((c % 10) + '0');
 		}
 		_putchar('\n');
 	}
 	}
 }
-

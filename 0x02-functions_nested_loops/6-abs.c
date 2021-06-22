@@ -10,7 +10,7 @@
 int _abs(int n)
 {	int r;
 	
-	r = _abs(n);
-	_putchar(r);
+	r = abs(n);
+	_putchar(r + '0');
 	return (0);
 }

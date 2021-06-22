@@ -6,15 +6,15 @@
 */
 
 int main(void)
-{	int n, t1 = 1, t2 = 2, nextterm;
+{	unsigned long int n, t1 = 1, t2 = 2, nextterm;
 
-	printf("%d, %d, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 	nextterm = t1 + t2;
 
 	n = nextterm;
 	while (n <= 98)
 	{
-		printf("%d, ", nextterm);
+		printf("%lu, ", nextterm);
 		t1 = t2;
 		t2 = nextterm;
 		nextterm = t1 + t2;

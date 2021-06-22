@@ -13,13 +13,13 @@ int  main(void)
 	n = 1024;
 	while (n >= 0)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if ((n % 3 == 0) || (n % 5 == 0))
 		{
 			sum += n;
 		}
 		n--;
 	}
-	printf("Sum is %d ", sum);
+	printf("%d", sum);
 	printf("\n");
 
 	return (0);

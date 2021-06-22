@@ -6,7 +6,7 @@
 */
 
 int main(void)
-{	long int n = 50, t1 = 1, t2 = 2, nextTerm, i;
+{	long int n = 48, t1 = 1, t2 = 2, nextTerm, i;
 
 	printf("%ld, %ld, ", t1, t2);
 	nextTerm = t1 + t2;

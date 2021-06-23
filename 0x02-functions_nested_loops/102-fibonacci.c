@@ -18,7 +18,7 @@ int main(void)
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 	}
-	if (nextTerm = 20365011074)
+	if ((nextTerm = 20365011074))
 	printf("%lu", nextTerm);
 	return (0);
 }

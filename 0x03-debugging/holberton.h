@@ -1,31 +1,8 @@
-#include <stdlib.h>
-void positive_or_negative(int i)
-{
-	int n = i;
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
-	if (n > 0)
-	printf("%d is positive\n", n);
-	else if (n == 0)
-	printf("%d is zero\n", n);
-	else if (n < 0)
-	printf("%d is negative\n", n);
-}
-int largest_number(int a, int b, int c)
-{
-    int largest;
+#include <stdio.h>
 
-    if (a > b && a > c)
-    {
-        largest = a;
-    }
-    else if (b > a && b > c)
-    {
-        largest = b;
-    }
-    else
-    {
-        largest = c;
-    }
+void positive_or_negative(int i);
 
-    return (largest);
-}
+#endif /* HOLBERTON_H */

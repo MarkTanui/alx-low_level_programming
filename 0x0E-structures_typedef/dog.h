@@ -3,9 +3,9 @@
 
 /**
  * struct dog - Short description
- * @a: pointer to the name of the dog
- * @b: Sage of the dog
- * @c: owner lof the dog
+ * @name: pointer to the name of the dog
+ * @age: Sage of the dog
+ * @owner: owner of the dog
  *
  * Description: Longer description
  */
